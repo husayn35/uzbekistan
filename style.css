@@ -96,3 +96,6 @@ object-fit: cover;
 .following-list{
     list-style: none;
 }
+.site-footer {
+    background-color: #222;
+}
