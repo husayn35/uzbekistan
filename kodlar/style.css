@@ -1,101 +1,19 @@
-body{
-    font-family: roboto slab;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.5px; 
-    color: #000;
-    background-color:white
+header{
+    background-color: greenyellow;
 }
-.news-item-img{
-    height: 300;
-    width: 3000;
-    object-fit: cover;
-}
-
-
-.news-item-text{
-    font-family:Roboto Slab ;
-}
-.news-item-heading{
-    font-family:Poetsen One;
-    font-weight: 400;
-    color: blueviolet;
-}
-.site-nav-list{
-    list-style: none;
-}
-/* text-transform bu harflar katta yoki kichik ekanligi */
-.site-nav-item{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-family: bebas neue;
-    
-}
-#div{
+#dls-logo{
     text-align: center;
-    color: white;
-    font-size: 35px;
-    font-family:Bebas Neue ;
-    background-color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: bebas neue ;
 }
-.hero-content{
-  background-color: rgb(16, 208, 151);  
-}
-.hero-heading{
-    font-size: 60px;
+#regist{
+    background-color: chocolate;
+    text-align: center;
 }
 .btn{
+    background-color: chartreuse;
+    text-align: center;
     text-decoration: none;
-}
-.hero-button{
-    color: white;
-}
-.news-heading, .viloyatlar-heading{
-    font-size: 32px;
-    font-family: bebas neue;
-}
-.news-list{
-    list-style: none;
-}
-/* object-fit bu rasm o'lchami o'zgarsa ham, rasmn siqilib qolmasligini ta'minlab beradi. */
-.news-item-img{
-height: 300px;
-width: 400px;
-object-fit: cover;
-}
-
-/* aside bolimi */
-.aside{
-    background-color: aqua;
-}
-/* viloyatlar ro'yxati */
-
-.viloyatlar-list     {
-    list-style: none;
-}
-.viloyatlar-link{
-    text-decoration: none;
-    font-size: 24px;
-    font-family: bebas neue, sans-serif;
     text-transform: uppercase;
-    color: #000;
-}
-
-/* following bo'limi */
-
-.following {
-    background-color: skyblue;
-}
-.following-heading {
-    font-size: 32px;
-    font-family: bebas neue, sans-serif;
-}
-.following-list{
-    list-style: none;
-}
-.site-footer {
-    background-color: #222;
 }
